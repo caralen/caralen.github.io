@@ -1,0 +1,37 @@
+title: Hello, world! I'm Alen Carin
+description: > # this means to ignore newlines until "baseurl:"
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
+permalink: ':title/'
+baseurl: "/flexible-jekyll" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+site-twitter: #if your site has a twitter account, enter it here
+
+# Author Settings
+author: Alen Carin # add your name
+author-img: resized.jpg # add your photo
+about-author: I am a master student in Data Science with a strong academic background and one year of professional experience. Passionate about a broad number of topics in the field of Data Science, Artificial Intelligence and Software Engineering. Inspired by great innovations and their inventors.
+social-twitter: alen_carin
+social-facebook: alen.carin
+social-github: caralen
+social-linkedin: alen-carin
+social-email: alen.carin@gmail.com
+
+# Disqus
+discus-identifier: # add your discus identifier
+
+# Tracker
+analytics: # Google Analytics
+
+# Build Settings
+markdown: kramdown
+plugins:
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jemoji
+
+paginate: 8
+paginate_path: "/page/:num"
+
+exclude: ["node_modules", "gulpfile.js", "package.json", "yarn.lock"]
